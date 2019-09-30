@@ -7,7 +7,7 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
 
-class SharedPrefModule internal constructor(context: ReactApplicationContext) : ReactContextBaseJavaModule(context) {
+class SharedPrefModule constructor(context: ReactApplicationContext) : ReactContextBaseJavaModule(context) {
 
   override fun getName(): String {
     return "SharedPrefModule"
